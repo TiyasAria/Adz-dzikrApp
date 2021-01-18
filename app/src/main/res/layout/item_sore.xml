@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/petang">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/_10dp"
+                android:text="@string/txt_title"
+                android:fontFamily="@font/komik_eight"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="@dimen/_24sp"
+                android:textColor="@android:color/white"
+                tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/keteranganarab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judul"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="@dimen/_60dp"
+                android:padding="@dimen/_10dp"
+                android:text="@string/txt_arab"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textSize="@dimen/_20sp"
+                android:textColor="@android:color/white"
+                tools:ignore="ObsoleteLayoutParam,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/keteranganindo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="@dimen/_10dp"
+                android:text="@string/txt_indo"
+                android:textStyle="bold|italic"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_16sp"
+                tools:ignore="ObsoleteLayoutParam" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

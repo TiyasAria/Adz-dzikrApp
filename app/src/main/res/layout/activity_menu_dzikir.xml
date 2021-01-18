@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    android:orientation="vertical"
+    tools:context=".MenuDzikir">
+
+    <TextView
+        android:id="@+id/salam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_40dp"
+        android:fontFamily="@font/arab"
+        android:text="@string/txt_assalamu_alaikum"
+        android:textColor="#2F163D"
+        android:textSize="@dimen/_40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/sapaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_20dp"
+        android:fontFamily="@font/komik_eight"
+        android:text="“Maka bertasbihlah kepada Allah di waktu kamu berada \ndi sore hari dan waktu kamu berada di waktu pagi hari”"
+        android:textColor="#2F163D"
+        android:textSize="@dimen/_16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/dzikirpagi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40dp"
+            android:src="@drawable/dzikirpagi" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/dzikirmalam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40dp"
+            android:src="@drawable/dzikirpetang" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/doanabi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:src="@drawable/doaparanabi2" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/dzikirtiapsaat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30dp"
+            android:src="@drawable/dzikirtiapsaat" />
+
+    </LinearLayout>
+</LinearLayout>

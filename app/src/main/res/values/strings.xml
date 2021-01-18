@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Adz-dzikr App</string>
+    <string name="txt_dzikir_amp_do_a">Dzikir &amp; Doa</string>
+    <string name="txt_assalamu_alaikum">Assalamu’alaikum</string>
+    <string name="txt_dzikir">“Dan bertasbihlah kepada-Nya diwaktu pagi dan sore. \nDialah yang memberi rahmat kepadamu dan malaikat-Nya (memohonkan ampunan untukmu), supaya Dia mengeluarkan kamu dari kegelapan kepada cahaya (yang terang). Dan adalah Dia Maha Penyayang kepada orang-orang yang beriman”</string>
+    <string name="txt_title">Title</string>
+    <string name="txt_arab">Arab</string>
+    <string name="txt_indo">Indo</string>أ
+    <string name="txt_dzikirpagi">Dzikir Pagi</string>
+    <string name="txt_dzikir_pagi">Dzikir Pagi</string>
+    <string name="txt_dzikir_petang">Dzikir Petang</string>
+    <string name="txt_reset">Reset</string>
+
+</resources>

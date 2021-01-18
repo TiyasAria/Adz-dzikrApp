@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idn.smart.tiyas.adz_dzikrapp">
+
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AdzdzikrApp">
+        <activity android:label="Dzikir Setiap Waktu" android:name=".DzikirActivity" />
+        <activity  android:label="Doa Para Nabi" android:name=".DoaNabiActivity" />
+        <activity android:label="Dzikir Petang" android:name=".ActivitySore" />
+        <activity  android:label="Dziki Pagi" android:name=".PagiActivity" />
+        <activity android:name=".MenuDzikir" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
